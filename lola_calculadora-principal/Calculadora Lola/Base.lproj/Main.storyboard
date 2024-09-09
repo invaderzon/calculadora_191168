@@ -29,14 +29,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="AaF-An-ERF">
-                                <rect key="frame" x="96.666666666666686" y="341" width="200" height="197.33333333333337"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="AaF-An-ERF">
+                                <rect key="frame" x="95.666666666666686" y="341" width="202" height="197.33333333333337"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="300" verticalHuggingPriority="300" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="kZZ-f8-uAj">
                                         <rect key="frame" x="0.0" y="0.0" width="34.666666666666664" height="197.33333333333334"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_7" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deH-8e-8cB">
                                                 <rect key="frame" x="0.0" y="0.0" width="34.666666666666664" height="34.333333333333336"/>
+                                                <color key="tintColor" systemColor="systemPurpleColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="7"/>
                                                 <connections>
@@ -70,7 +71,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="300" verticalHuggingPriority="300" axis="vertical" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="dAp-Gg-qF9">
-                                        <rect key="frame" x="76.666666666666671" y="0.0" width="34.666666666666671" height="197.33333333333334"/>
+                                        <rect key="frame" x="77.666666666666671" y="0.0" width="34.666666666666671" height="197.33333333333334"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_8" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBy-2W-o45">
                                                 <rect key="frame" x="0.0" y="0.0" width="34.666666666666664" height="34.333333333333336"/>
@@ -107,7 +108,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="300" verticalHuggingPriority="300" axis="vertical" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Uxw-A3-QUF">
-                                        <rect key="frame" x="153.33333333333331" y="0.0" width="46.666666666666657" height="197.33333333333334"/>
+                                        <rect key="frame" x="155.33333333333331" y="0.0" width="46.666666666666657" height="197.33333333333334"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_9" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUp-of-JyT">
                                                 <rect key="frame" x="0.0" y="0.0" width="46.666666666666664" height="34.333333333333336"/>
@@ -144,6 +145,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -168,6 +170,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
